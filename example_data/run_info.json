@@ -1,0 +1,54 @@
+{
+    "mrk50_gas": {
+        "description": "Markarian 50, CARAMEL-gas",
+        "runname": "${\\rm Mrk~50~{\\sc gas}}$",
+        "fp_run": "/Volumes/cortado/revmap/code/cappuccino/example_data/CARAMEL_runs/mrk50_gas/",
+        "redshift": 0.0237,
+        "cut": 0.15,
+        "temp": 75,
+        "forward_extrap": 0.1,
+        "backward_extrap": 0.5,
+        "linecenter": 4861.33,
+        "data_filenames": {
+            "spectra":"mrk50_csub-kov_hbeta_spectra_rescaled.txt",
+            "continuum":"mrk50_continuum_sec.txt",
+            "spectra_times":"mrk50_hbeta_times_sec.txt",
+            "sigma":"mrk50_csub-kov_sigma_sec.txt"
+        },
+        "CARAMEL_params_list": [
+            "Mbh", "mu", "Beta", "F",
+            "Thetao", "Thetai",
+            "Kappa", "Xi", "Gamma",
+            "Cadd", "epsilon_zero", "alpha", "Fellip", "Fflow",
+            "angular_sd_orbiting", "radial_sd_orbiting", "angular_sd_flowing", "radial_sd_flowing",
+            "Sigmaturb", "Thetae", "narrow_line_flux", "Blurring",
+            "Rmean", "Rmedian", "Taumean",  "Taumedian",  "NarrowLineCenter"
+        ]
+    },
+    "mrk50_light": {
+        "description": "Markarian 50, CARAMEL-light",
+        "runname": "${\\rm Mrk~50~{\\sc light}}$",
+        "fp_run": "/Volumes/cortado/revmap/code/cappuccino/example_data/CARAMEL_runs/mrk50_light/",
+        "redshift": 0.0237,
+        "cut": 0.1,
+        "temp": 150,
+        "forward_extrap": 0.1,
+        "backward_extrap": 0.5,
+        "linecenter": 4861.33,
+        "data_filenames": {
+            "spectra":"mrk50_csub-kov_hbeta_spectra_rescaled.txt",
+            "continuum":"mrk50_continuum_sec.txt",
+            "spectra_times":"mrk50_hbeta_times_sec.txt",
+            "sigma":"mrk50_csub-kov_sigma_sec.txt"
+        },
+        "CARAMEL_params_list": [
+            "Mbh", "mu", "Beta", "F",
+            "Thetao", "Thetai",
+            "Kappa", "Xi", "Gamma",
+            "Cadd", "Cmult", "Fellip", "Fflow",
+            "angular_sd_orbiting", "radial_sd_orbiting", "angular_sd_flowing", "radial_sd_flowing",
+            "Sigmaturb", "Thetae", "narrow_line_flux", "Blurring",
+            "Rmean", "Rmedian", "Taumean",  "Taumedian",  "NarrowLineCenter"
+        ]
+    }
+}
