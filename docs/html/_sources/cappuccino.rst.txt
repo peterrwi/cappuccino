@@ -1,0 +1,32 @@
+cappuccino package
+==================
+
+Subpackages
+-----------
+
+.. toctree::
+
+    cappuccino.calc
+    cappuccino.plotting
+    cappuccino.tex
+    cappuccino.utils
+
+Submodules
+----------
+
+cappuccino.model module
+-----------------------
+
+.. automodule:: cappuccino.model
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: cappuccino
+    :members:
+    :undoc-members:
+    :show-inheritance:

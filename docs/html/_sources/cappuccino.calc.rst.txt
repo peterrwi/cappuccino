@@ -1,0 +1,46 @@
+cappuccino.calc package
+=======================
+
+Submodules
+----------
+
+cappuccino.calc.convergence module
+----------------------------------
+
+.. automodule:: cappuccino.calc.convergence
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.calc.correlations module
+-----------------------------------
+
+.. automodule:: cappuccino.calc.correlations
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.calc.meanF module
+----------------------------
+
+.. automodule:: cappuccino.calc.meanF
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.calc.postprocess module
+----------------------------------
+
+.. automodule:: cappuccino.calc.postprocess
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: cappuccino.calc
+    :members:
+    :undoc-members:
+    :show-inheritance:

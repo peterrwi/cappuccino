@@ -1,0 +1,94 @@
+cappuccino.plotting package
+===========================
+
+Submodules
+----------
+
+cappuccino.plotting.buildFigures module
+---------------------------------------
+
+.. automodule:: cappuccino.plotting.buildFigures
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.plotting.cornerPlot module
+-------------------------------------
+
+.. automodule:: cappuccino.plotting.cornerPlot
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.plotting.correlations module
+---------------------------------------
+
+.. automodule:: cappuccino.plotting.correlations
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.plotting.display module
+----------------------------------
+
+.. automodule:: cappuccino.plotting.display
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.plotting.dn4Plot module
+----------------------------------
+
+.. automodule:: cappuccino.plotting.dn4Plot
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.plotting.geometries module
+-------------------------------------
+
+.. automodule:: cappuccino.plotting.geometries
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.plotting.new\_geometries module
+------------------------------------------
+
+.. automodule:: cappuccino.plotting.new_geometries
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.plotting.plots module
+--------------------------------
+
+.. automodule:: cappuccino.plotting.plots
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.plotting.posteriors module
+-------------------------------------
+
+.. automodule:: cappuccino.plotting.posteriors
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.plotting.transfer module
+-----------------------------------
+
+.. automodule:: cappuccino.plotting.transfer
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: cappuccino.plotting
+    :members:
+    :undoc-members:
+    :show-inheritance:

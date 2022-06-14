@@ -1,0 +1,8 @@
+cappuccino
+==========
+
+.. toctree::
+   :maxdepth: 4
+
+   cappuccino
+   setup

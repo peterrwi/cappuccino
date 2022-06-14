@@ -1,0 +1,30 @@
+cappuccino.tex package
+======================
+
+Submodules
+----------
+
+cappuccino.tex.tables module
+----------------------------
+
+.. automodule:: cappuccino.tex.tables
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+cappuccino.tex.texCommands module
+---------------------------------
+
+.. automodule:: cappuccino.tex.texCommands
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: cappuccino.tex
+    :members:
+    :undoc-members:
+    :show-inheritance:

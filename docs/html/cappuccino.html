@@ -1,0 +1,918 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>cappuccino package &mdash; cappuccino 1.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="cappuccino.calc package" href="cappuccino.calc.html" />
+    <link rel="prev" title="cappuccino" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> cappuccino
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">cappuccino</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">cappuccino package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cappuccino.calc.html">cappuccino.calc package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cappuccino.plotting.html">cappuccino.plotting package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cappuccino.tex.html">cappuccino.tex package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cappuccino.utils.html">cappuccino.utils package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-cappuccino.model">cappuccino.model module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-cappuccino">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="setup.html">setup module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">cappuccino</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">cappuccino</a> &raquo;</li>
+        
+      <li>cappuccino package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/cappuccino.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="cappuccino-package">
+<h1>cappuccino package<a class="headerlink" href="#cappuccino-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="cappuccino.calc.html">cappuccino.calc package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.calc.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.calc.html#module-cappuccino.calc.convergence">cappuccino.calc.convergence module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.calc.html#module-cappuccino.calc.correlations">cappuccino.calc.correlations module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.calc.html#module-cappuccino.calc.meanF">cappuccino.calc.meanF module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.calc.html#module-cappuccino.calc.postprocess">cappuccino.calc.postprocess module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.calc.html#module-cappuccino.calc">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cappuccino.plotting.html">cappuccino.plotting package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#module-cappuccino.plotting.buildFigures">cappuccino.plotting.buildFigures module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#module-cappuccino.plotting.cornerPlot">cappuccino.plotting.cornerPlot module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#cappuccino-plotting-correlations-module">cappuccino.plotting.correlations module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#module-cappuccino.plotting.display">cappuccino.plotting.display module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#cappuccino-plotting-dn4plot-module">cappuccino.plotting.dn4Plot module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#module-cappuccino.plotting.geometries">cappuccino.plotting.geometries module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#module-cappuccino.plotting.new_geometries">cappuccino.plotting.new_geometries module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#module-cappuccino.plotting.plots">cappuccino.plotting.plots module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#module-cappuccino.plotting.posteriors">cappuccino.plotting.posteriors module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#module-cappuccino.plotting.transfer">cappuccino.plotting.transfer module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.plotting.html#module-cappuccino.plotting">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cappuccino.tex.html">cappuccino.tex package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.tex.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.tex.html#module-cappuccino.tex.tables">cappuccino.tex.tables module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.tex.html#module-cappuccino.tex.texCommands">cappuccino.tex.texCommands module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.tex.html#module-cappuccino.tex">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cappuccino.utils.html">cappuccino.utils package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.utils.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.utils.html#module-cappuccino.utils.constants">cappuccino.utils.constants module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.utils.html#module-cappuccino.utils.parInfo">cappuccino.utils.parInfo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.utils.html#module-cappuccino.utils.util">cappuccino.utils.util module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cappuccino.utils.html#module-cappuccino.utils">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-cappuccino.model">
+<span id="cappuccino-model-module"></span><h2>cappuccino.model module<a class="headerlink" href="#module-cappuccino.model" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="cappuccino.model.Model">
+<em class="property">class </em><code class="descclassname">cappuccino.model.</code><code class="descname">Model</code><span class="sig-paren">(</span><em>fp_run='', cut=0.0, temp=0.0, nhyperparams=7, CARAMEL_params_list=[], forward_extrap=0.0, backward_extrap=0.0, redshift=0.0, runname=None, agnname=None, posterior_sample=None, fp_posterior='', load_posterior=False, level_cut=[0, 0], **kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is the primary cappuccino class that will contain all of the information
+and results for a CARAMEL run.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>fp_run</strong> (<em>str</em>) – Path to the directory where the CARAMEL run results are stored.</li>
+<li><strong>cut</strong> (<em>float</em>) – Fraction of samples to cut from beginning of sample.txt, defaults to 0.0.</li>
+<li><strong>temp</strong> (<em>int</em><em> or </em><em>float</em>) – Statistical temperature for postprocessing, defaults to 1</li>
+<li><strong>nhyperparams</strong> (<em>int</em>) – Number of hyperparameters in the CARAMEL continuum model. This <strong>must</strong> be
+set properly for cappuccino to work. Defaults to the CARAMEL master branch.</li>
+<li><strong>CARAMEL_params_list</strong> (<em>dictionary</em>) – List of parameters in the CARAMEL sample.txt output file. This
+<strong>must</strong> be set properly for cappuccino to work. Defaults to the CARAMEL master branch.</li>
+<li><strong>forward_extrap</strong> (<em>float</em>) – Fraction of lightcurve extrapolated <em>into the future</em>. Must match the
+value in Constants.cpp. Defaults to 0.0</li>
+<li><strong>backward_extrap</strong> (<em>dictionary</em>) – Fraction of lightcurve extrapolated <em>into the past</em>. Must match the
+value in Constants.cpp. Defaults to 0.0</li>
+<li><strong>redshift</strong> (<em>float</em>) – Redshift of the AGN. Necessary for some parameter measurements. Defaults to 0.0.</li>
+<li><strong>runname</strong> (<em>str</em>) – Name identifier for the CARAMEL run. Defaults to None.</li>
+<li><strong>agnname</strong> (<em>str</em>) – Name identifier for the AGN. Defaults to None.</li>
+<li><strong>posterior_sample</strong> (<em>numpy array</em>) – Posterior sample array. If included, will automatically create the 
+posterior property.</li>
+<li><strong>fp_posterior</strong> (<em>str</em>) – Posterior sample filepath. If included, will automatically load and create
+the posterior property.</li>
+<li><strong>load_posterior</strong> (<em>bool</em>) – If posterior_sample and fp_posterior weren’t provided, will attempt to 
+find the posterior_sample file based on the standard file structure and load. Defaults to True.</li>
+<li><strong>level_cut</strong> (<em>list</em>) – If you’d like to specify exact levels rather than using the standard DNest postproccessing
+scripts. First value is the minimum level, second value is the maximum level.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="cappuccino.model.Model.addParam">
+<code class="descname">addParam</code><span class="sig-paren">(</span><em>paramname</em>, <em>posterior</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.addParam" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds the posterior sample to the posteriors attribute. Also adds 68%
+confidence intervals to the confints attribute.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>paramname</strong> (<em>str</em>) – Name of the parameter to be added</li>
+<li><strong>posterior</strong> (<em>list</em>) – List of posterior samples corresponding to paramname</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcConfInt">
+<code class="descname">calcConfInt</code><span class="sig-paren">(</span><em>param</em>, <em>percentile=68.27</em>, <em>onesided=False</em>, <em>prior=None</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcConfInt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls utils.util.confInt() to compute the confidence interval for a parameter.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>param</strong> (<em>str</em>) – Name of the parameter to be added</li>
+<li><strong>percentile</strong> (<em>float</em>) – Percentile for which to calculate confidence
+interval. Defaults to 68.27.</li>
+<li><strong>onesided</strong> (<em>float</em>) – Standard confidence interval (False), upper limit
+(‘lower’), or lower limit (‘upper’)</li>
+<li><strong>prior</strong> (<em>list</em><em>, </em><em>length 2</em>) – Prior range for the parameter, recommended if ‘onesided’
+is not False.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcCovariance">
+<code class="descname">calcCovariance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcCovariance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcF">
+<code class="descname">calcF</code><span class="sig-paren">(</span><em>veltype=['meanfwhm', 'meansigma', 'rmssigma', 'rmsfwhm']</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcF" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates an f-factor posterior, using the Mbh posterior distribution, and
+the VP posterior distribution created by calcVirialProduct.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>veltype</strong> (<em>list</em>) – List of the line with measurement types to use</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcInflowOutflow">
+<code class="descname">calcInflowOutflow</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcInflowOutflow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates the inflow-outflow parameter, defined in Williams et al. 2018</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcLBol">
+<code class="descname">calcLBol</code><span class="sig-paren">(</span><em>wave=5100</em>, <em>bol_correction=9.0</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcLBol" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates the bolometric luminosity, given luminosity and a bolometric
+correction, and adds the resulting posterior.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>wave</strong> (<em>int</em>) – Wavelength of luminosity measurement, defaults to 5100</li>
+<li><strong>bol_correction</strong> (<em>float</em>) – Bolometric correction, defaults to 9.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcLEdd">
+<code class="descname">calcLEdd</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcLEdd" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates the Eddington ratio and adds the resulting posterior</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcLog10L5100">
+<code class="descname">calcLog10L5100</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcLog10L5100" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls calcLog10LWave for wave=5100</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcLog10LWave">
+<code class="descname">calcLog10LWave</code><span class="sig-paren">(</span><em>wave=5100</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcLog10LWave" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates log10(L_wave), given f_(wave,lambda) and D_L in Mpc, and adds
+the resulting posterior.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>wave</strong> (<em>int</em>) – Wavelength of luminosity measurement, defaults to 5100</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcMSini">
+<code class="descname">calcMSini</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcMSini" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates M_BH * sin(i).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcRmeanoverRmin">
+<code class="descname">calcRmeanoverRmin</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcRmeanoverRmin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates Rmean / Rmin</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.calcVirialProduct">
+<code class="descname">calcVirialProduct</code><span class="sig-paren">(</span><em>veltype=['meanfwhm', 'meansigma', 'rmssigma', 'rmsfwhm']</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.calcVirialProduct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates the virial product using the Tauccf parameter, and the line
+widths defined in veltype. Saves a posterior sample of the same length
+as the other posteriors. Errors are propagated by assuming Gaussian
+errors in Tauccf and velocities and drawing random samples.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>veltype</strong> (<em>list</em>) – List of the line with measurement types to use</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.convergence">
+<code class="descname">convergence</code><span class="sig-paren">(</span><em>cut=-1</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.convergence" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls calc.convergence. The posterior_sample file must already exist to
+run this code.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cut</strong> (<em>float</em>) – Percent of samples to cut from beginning, defaults to self.cut</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.convertLwave">
+<code class="descname">convertLwave</code><span class="sig-paren">(</span><em>wave_old</em>, <em>wave_new</em>, <em>bol_correction_old</em>, <em>bol_correction_new</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.convertLwave" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts log10Lwave_old to log10Lwave_new, using two bolometric corrections. E.g., 
+convert log10L1350 to log10L5100 for comparison with previous modeling results.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>wave_old</strong> (<em>int</em>) – Wavelength of old luminosity measurement</li>
+<li><strong>wave_new</strong> (<em>int</em>) – Wavelength of new luminosity measurement</li>
+<li><strong>bol_correction_old</strong> (<em>float</em>) – Bolometric correction of old measurement</li>
+<li><strong>bol_correction_new</strong> (<em>float</em>) – Bolometric correction of new measurement</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.deepCopy">
+<code class="descname">deepCopy</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.deepCopy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Makes a deep copy of the Model object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">new Model object</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="cappuccino.model.Model.fromJSON">
+<em class="property">classmethod </em><code class="descname">fromJSON</code><span class="sig-paren">(</span><em>fp_json</em>, <em>runname=''</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.fromJSON" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads in the run information from a JSON file.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>fp_json</strong> (<em>str</em>) – Path to the JSON file.</li>
+<li><strong>runname</strong> (<em>str</em>) – If there are multiple values in the JSON file, this is the key for the run
+you would like to load. If not provided, will assume only one run.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Model object</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.loadData">
+<code class="descname">loadData</code><span class="sig-paren">(</span><em>data_dir=''</em>, <em>data_filenames=None</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.loadData" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads in the data from the CARAMEL input files</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>data_dir</strong> (<em>str</em>) – path to the directory storing the input data files. Defaults to self.fp_run + “Data/”</li>
+<li><strong>data_filenames</strong> (<em>dictionary</em>) – filenames of the input files. If None, code will attempt to determine files.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.loadPosterior">
+<code class="descname">loadPosterior</code><span class="sig-paren">(</span><em>fn=''</em>, <em>posterior_sample=None</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.loadPosterior" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads in the posterior_sample.npy file and sets the .posterior attribute. If a .txt file, 
+converts to .npy for faster loading in the future.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>fn</strong> (<em>str</em>) – filepath to the posterior_sample.npy file, defaults to ‘’</li>
+<li><strong>posterior_sample</strong> (<em>str</em>) – posterior_sample numpy array</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.makePosteriorDataFrame">
+<code class="descname">makePosteriorDataFrame</code><span class="sig-paren">(</span><em>posterior</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.makePosteriorDataFrame" title="Permalink to this definition">¶</a></dt>
+<dd><p>Takes a posterior array in CARAMEL output form and puts it into a
+Pandas DataFrame object after applying appropriate scaling and
+conversions for each of the model parameters.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>posterior</strong> – Posterior sample output from CARAMEL + DNest</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.plotCorner">
+<code class="descname">plotCorner</code><span class="sig-paren">(</span><em>params</em>, <em>interactive=False</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.plotCorner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls cappuccino.plotting.corner.cornerPosterior()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>params</strong> (<em>list of strings</em>) – Posterior sample parameters to plot</li>
+<li><strong>interactive</strong> (<em>bool</em>) – If True, plot using Bokeh</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.plotDisplay">
+<code class="descname">plotDisplay</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.plotDisplay" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls cappuccino.plotting.display.plotDisplay()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.plotGeos">
+<code class="descname">plotGeos</code><span class="sig-paren">(</span><em>clouds_num=[]</em>, <em>fp_clouds=''</em>, <em>print_params=[]</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.plotGeos" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads in the clouds files and calls cappuccino.plotting.geometries.cornerPosterior()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.plotPosterior">
+<code class="descname">plotPosterior</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.plotPosterior" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls cappuccino.plotting.posteriors.plotPosteriors()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.postprocess">
+<code class="descname">postprocess</code><span class="sig-paren">(</span><em>temp=-1</em>, <em>cut=-1</em>, <em>savename='posterior_sample'</em>, <em>force=False</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.postprocess" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls a modified version of the the DNest postprocess code.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>temp</strong> (<em>int</em>) – Temperature, defaults to self.temp</li>
+<li><strong>cut</strong> (<em>float</em>) – Fraction of samples to cut from beginning, defaults to self.cut</li>
+<li><strong>savename</strong> (<em>str</em>) – File to save posterior sample, defaults to ‘posterior_sample’</li>
+<li><strong>force</strong> (<em>bool</em>) – Whether to force-overwrite the current posterior_sample file, defaults to False</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.readParamFile">
+<code class="descname">readParamFile</code><span class="sig-paren">(</span><em>agn</em>, <em>filepath</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.readParamFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads a file that contains external parameters for the AGN/BLR being
+studied, such as its LOS velocity, luminosity distance, CCF lag
+measurement, etc.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>filepath</strong> (<em>str</em>) – Filepath to the .csv file to be loaded</li>
+<li><strong>json_chain</strong> (<em>list</em>) – If there are multiple levels to the json file,</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.readParamFileJSON">
+<code class="descname">readParamFileJSON</code><span class="sig-paren">(</span><em>filepath</em>, <em>json_chain=None</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.readParamFileJSON" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads a file that contains external parameters for the AGN/BLR being
+studied, such as its LOS velocity, luminosity distance, CCF lag
+measurement, etc.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>filepath</strong> (<em>str</em>) – Filepath to the .json file to be loaded</li>
+<li><strong>json_chain</strong> (<em>list</em>) – If there are multiple levels to the json file,</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.readPosteriorFile">
+<code class="descname">readPosteriorFile</code><span class="sig-paren">(</span><em>filepath, fp_sample_info='', level_cut=[0, 0]</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.readPosteriorFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads the posterior sample file output from CARAMEL, then calls
+makePosteriorDataFrame to convert to a posterior dictionary.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>filepath</strong> (<em>str</em>) – Path to the posterior sample file</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.setKeys">
+<code class="descname">setKeys</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.setKeys" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the keys attribute to be the list of posterior keys.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.setParam">
+<code class="descname">setParam</code><span class="sig-paren">(</span><em>paramname</em>, <em>vals</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.setParam" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to set ‘params,’ which are values that have been measured, such as
+cross-correlation lag, line width, etc. These are NOT model parameters.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>paramname</strong> (<em>str</em>) – String defining the param name</li>
+<li><strong>vals</strong> (<em>list</em><em> or </em><em>numpy.array</em><em> (</em><em>length 3</em><em>)</em>) – [median, minus_uncertainty, plus_uncertainty]</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">None</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="cappuccino.model.Model.transferParams">
+<code class="descname">transferParams</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.Model.transferParams" title="Permalink to this definition">¶</a></dt>
+<dd><p>This will add a parameter to the object’s params attribute only if 1)
+the loaded value is not NaN and 2) the posterior sample does not already
+exist. This ensures that the published values from previous papers are
+used in case there is a discrepancy between the published values and the
+calculated values.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="cappuccino.model.buildPosterior">
+<code class="descclassname">cappuccino.model.</code><code class="descname">buildPosterior</code><span class="sig-paren">(</span><em>fp_params</em>, <em>fp_posterior</em>, <em>agn</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.buildPosterior" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function gathers all of the information for a given
+:param fp_params: Filepath to the file with the AGN parameters stored
+:type fp_params: str</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>fp_posterior</strong> (<em>str</em>) – Filepath to the AGN’s CARAMEL output file</li>
+<li><strong>agn</strong> (<em>str</em>) – </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Posterior object for the AGN</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="cappuccino.model.combinePosteriors">
+<code class="descclassname">cappuccino.model.</code><code class="descname">combinePosteriors</code><span class="sig-paren">(</span><em>posterior_list</em>, <em>Nsamp</em>, <em>weights=1.0</em>, <em>seed=0</em>, <em>savename=''</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.combinePosteriors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Combines the posterior sample files in posterior_list into a new posterior sample
+file of length Nsamp.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>posterior_list</strong> (<em>dict</em>) – List of posterior samples</li>
+<li><strong>Nsamp</strong> (<em>int</em>) – Length of output combined posterior file.</li>
+<li><strong>weights</strong> (<em>list</em>) – List of weights for combining posterior samples, defaults to equal weights.</li>
+<li><strong>seed</strong> (<em>int</em>) – numpy seed for random numbers, defaults to 0.</li>
+<li><strong>savename</strong> (<em>str</em>) – File to save combined posterior.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Combined posterior sample</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="cappuccino.model.extractConfIntsAndCov">
+<code class="descclassname">cappuccino.model.</code><code class="descname">extractConfIntsAndCov</code><span class="sig-paren">(</span><em>post</em>, <em>varx</em>, <em>vary</em>, <em>agn_order=[]</em>, <em>x_logify=False</em>, <em>y_logify=False</em><span class="sig-paren">)</span><a class="headerlink" href="#cappuccino.model.extractConfIntsAndCov" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-cappuccino">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-cappuccino" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="cappuccino.calc.html" class="btn btn-neutral float-right" title="cappuccino.calc package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="modules.html" class="btn btn-neutral float-left" title="cappuccino" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Peter R. Williams.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
