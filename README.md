@@ -4,7 +4,7 @@ Cappuccino is a package to handle post-processing and analysis of [CARAMEL](http
 
 It started off as a hodgepodge of python scripts, but as I started working with more and more CARAMEL runs, I decided to package it all up to work more nicely with my Jupyter Notebook based workflow.
 
-Below is a brief guide on how to get started with cappuccino and some of the things you can do with it.
+Below is a brief guide on how to get started with cappuccino and some of the things you can do with it. More detailed documentation [is available here](https://peterrwi.github.io/cappuccino/)
 
 # Importing packages
 First, make sure you've added cappuccino to your Python path. You can do this in your .bashrc file with, e.g., `export PYTHONPATH=$PYTHONPATH:/Users/peterwilliams/Documents/revmap/code/cappuccino`
