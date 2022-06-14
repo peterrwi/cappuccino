@@ -1,4 +1,4 @@
-# cappuccino - CARAMEL post-processing code
+# cappuccino - CARAMEL post-processing and analysis code
 
 Cappuccino is a package to handle post-processing and analysis of [CARAMEL](https://github.com/tommasotreu/caramel) output files. The name is a work-in-progress backronym for **CA**RAMEL <b>P</b>ost-<b>P</b>rocessing.....**UCCINO**.
 
